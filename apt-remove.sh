@@ -1,4 +1,4 @@
-sudo apt-get remove \
+sudo apt-get purge \
 baobab \
 ca-certificates-java \
 celluloid \
@@ -7,10 +7,8 @@ cheese-common \
 default-jre \
 default-jre-headless \
 drawing \
-flatpak \
 gnome-calculator \
 gnome-calendar \
-gnome-disk-utility \
 gnome-screenshot \
 gnome-system-monitor \
 hexchat \
@@ -81,3 +79,4 @@ transmission-gtk \
 warpinator \
 webapp-manager \
 youtube-dl
+sudo apt-get autoremove --purge
